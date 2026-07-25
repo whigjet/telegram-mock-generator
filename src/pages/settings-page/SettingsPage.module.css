@@ -1,0 +1,34 @@
+.settingsPage {
+  width: 100%;
+  height: 100vh;
+  background: #00a7cd;
+  background: linear-gradient(180deg, rgba(0, 167, 205, 1) 0%, rgba(79, 196, 255, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.settingsPage_avatar {
+  position: relative;
+  top: 70px;
+  margin: 0 auto;
+}
+
+.settingsPage_content {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  margin-top: -30px;
+}
+
+.settingsPage_title {
+  padding-bottom: 20px;
+}

@@ -1,0 +1,30 @@
+.settingsButton {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 80px;
+  background-color: rgb(241, 242, 244);
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.settingsButton_flexStart {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.settingsButton_title {
+  font-size: 20px;
+  color: black;
+  justify-content: flex-start;
+}
+
+.settingsButton_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

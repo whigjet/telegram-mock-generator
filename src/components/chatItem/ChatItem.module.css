@@ -1,0 +1,196 @@
+.chatItem {
+  height: 75px;
+  width: 100vw;
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.avatar img {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+.avatarFallback {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family:
+    'SF Pro Rounded',
+    'SF Pro Text',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Helvetica Neue',
+    Helvetica,
+    Arial,
+    system-ui,
+    sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  user-select: none;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0.15));
+  /* will be overridden inline */
+  letter-spacing: 0.2px;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.15),
+    0 1px 2px rgba(0, 0, 0, 0.08);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-shadow: 0 0.35px 0 rgba(0, 0, 0, 0.04);
+}
+
+.chatNameText {
+  font-size: 16px;
+  font-family: inherit;
+  letter-spacing: -0.2px;
+  font-weight: 500;
+  color: black;
+  opacity: 1;
+}
+
+.lastMessageText {
+  font-size: 13px;
+  font-family: inherit;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+  color: var(--light-gray-text);
+}
+
+.chatName_container {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  border-bottom: 0.33px solid rgba(60, 60, 67, 0.29);
+  height: 70px;
+  justify-content: space-between;
+}
+
+.chatName_container_right_block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  position: relative;
+  height: 100%;
+  min-width: 50px;
+  padding-right: 15px;
+}
+
+.dateText {
+  font-size: 13px;
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--light-gray-text);
+}
+
+.countMessage_circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+  background-color: var(--blue-color-text);
+
+  line-height: 1;
+  padding: 0;
+
+  position: absolute;
+  bottom: 15px;
+}
+
+.countMessage_circle span {
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 400;
+  color: white;
+
+  margin: 0;
+  padding: 0;
+  display: block;
+
+  line-height: 1;
+}
+
+/* Avatar picker modal */
+.pickerOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.pickerModal {
+  width: 90vw;
+  max-width: 520px;
+  max-height: 80vh;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.pickerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(60, 60, 67, 0.29);
+}
+
+.pickerTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.pickerClose {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.pickerGrid {
+  padding: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  overflow: auto;
+}
+
+.pickerItem {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.pickerItem img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid transparent;
+}
+
+.pickerItem:focus img,
+.pickerItem:hover img {
+  border-color: #2a85ff;
+}

@@ -1,0 +1,407 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  src:
+    local('SF Pro Display Black'),
+    local('SFProDisplay-Black'),
+    local('SF Pro Display'),
+    url('/fonts/SF-Pro-Display-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src:
+    local('SF Pro Display Heavy'),
+    local('SFProDisplay-Heavy'),
+    local('SF Pro Display'),
+    url('/fonts/SF-Pro-Display-Heavy.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src:
+    local('SF Pro Display Bold'),
+    local('SFProDisplay-Bold'),
+    local('SF Pro Display'),
+    url('/fonts/SF-Pro-Display-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src:
+    local('SF Pro Display Semibold'),
+    local('SFProDisplay-Semibold'),
+    local('SF Pro Display'),
+    url('/fonts/SF-Pro-Display-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src:
+    local('SF Pro Display Medium'),
+    local('SFProDisplay-Medium'),
+    local('SF Pro Display'),
+    url('/fonts/SF-Pro-Display-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src:
+    local('SF Pro Display Regular'),
+    local('SFProDisplay-Regular'),
+    local('SF Pro Display'),
+    url('/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src:
+    local('SF Pro Display Light'),
+    local('SFProDisplay-Light'),
+    local('SF Pro Display'),
+    url('/fonts/SF-Pro-Display-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src:
+    local('SF Pro Display Ultralight'),
+    local('SFProDisplay-Ultralight'),
+    local('SF Pro Display'),
+    url('/fonts/SF-Pro-Display-Ultralight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src:
+    local('SF Pro Display Thin'),
+    local('SFProDisplay-Thin'),
+    local('SF Pro Display'),
+    url('/fonts/SF-Pro-Display-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src:
+    local('SF Pro Text Bold'),
+    local('SFProText-Bold'),
+    local('SF Pro Text'),
+    url('/fonts/SF-Pro-Text-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src:
+    local('SF Pro Text Heavy'),
+    local('SFProText-Heavy'),
+    local('SF Pro Text'),
+    url('/fonts/SFProText-Heavy.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src:
+    local('SF Pro Text Semibold'),
+    local('SFProText-Semibold'),
+    local('SF Pro Text'),
+    url('/fonts/SFProText-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src:
+    local('SF Pro Text Medium'),
+    local('SFProText-Medium'),
+    local('SF Pro Text'),
+    url('/fonts/SFProText-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src:
+    local('SF Pro Text Regular'),
+    local('SFProText-Regular'),
+    local('SF Pro Text'),
+    url('/fonts/SFProText-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src:
+    local('SF Pro Text Light'),
+    local('SFProText-Light'),
+    local('SF Pro Text'),
+    url('/fonts/SFProText-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src:
+    local('SF UI Display Black'),
+    local('SFUIDisplay-Black'),
+    local('SF UI Display'),
+    url('/fonts/SFUIDisplay-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src:
+    local('SF UI Display Heavy'),
+    local('SFUIDisplay-Heavy'),
+    local('SF UI Display'),
+    url('/fonts/SFUIDisplay-Heavy.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src:
+    local('SF UI Display Bold'),
+    local('SFUIDisplay-Bold'),
+    local('SF UI Display'),
+    url('/fonts/SFUIDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src:
+    local('SF UI Display Semibold'),
+    local('SFUIDisplay-Semibold'),
+    local('SF UI Display'),
+    url('/fonts/SFUIDisplay-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src:
+    local('SF UI Display Medium'),
+    local('SFUIDisplay-Medium'),
+    local('SF UI Display'),
+    url('/fonts/SFUIDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src:
+    local('SF UI Display Regular'),
+    local('SFUIDisplay-Regular'),
+    local('SF UI Display'),
+    url('/fonts/SFUIDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src:
+    local('SF UI Display Light'),
+    local('SFUIDisplay-Light'),
+    local('SF UI Display'),
+    url('/fonts/SFUIDisplay-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src:
+    local('SF UI Display Ultralight'),
+    local('SFUIDisplay-Ultralight'),
+    local('SF UI Display'),
+    url('/fonts/SFUIDisplay-Ultralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src:
+    local('SF UI Display Thin'),
+    local('SFUIDisplay-Thin'),
+    local('SF UI Display'),
+    url('/fonts/SFUIDisplay-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Text';
+  src:
+    local('SF UI Text Bold'),
+    local('SFUIText-Bold'),
+    local('SF UI Text'),
+    url('/fonts/SFUIText-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Text';
+  src:
+    local('SF UI Text Bold Italic'),
+    local('SFUIText-BoldItalic'),
+    local('SF UI Text'),
+    url('/fonts/SFUIText-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Text';
+  src:
+    local('SF UI Text Heavy'),
+    local('SFUIText-Heavy'),
+    local('SF UI Text'),
+    url('/fonts/SFUIText-Heavy.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Text';
+  src:
+    local('SF UI Text Heavy Italic'),
+    local('SFUIText-HeavyItalic'),
+    local('SF UI Text'),
+    url('/fonts/SFUIText-HeavyItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Text';
+  src:
+    local('SF UI Text Medium'),
+    local('SFUIText-Medium'),
+    local('SF UI Text'),
+    url('/fonts/SFUIText-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Text';
+  src:
+    local('SF UI Text Medium Italic'),
+    local('SFUIText-MediumItalic'),
+    local('SF UI Text'),
+    url('/fonts/SFUIText-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Text';
+  src:
+    local('SF UI Text Regular'),
+    local('SFUIText-Regular'),
+    local('SF UI Text'),
+    url('/fonts/SFUIText-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Text';
+  src:
+    local('SF UI Text Light'),
+    local('SFUIText-Light'),
+    local('SF UI Text'),
+    url('/fonts/SFUIText-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Text';
+  src:
+    local('SF UI Text Light Italic'),
+    local('SFUIText-LightItalic'),
+    local('SF UI Text'),
+    url('/fonts/SFUIText-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Text';
+  src:
+    local('SF UI Text Semibold'),
+    local('SFUIText-Semibold'),
+    local('SF UI Text'),
+    url('/fonts/SFUIText-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

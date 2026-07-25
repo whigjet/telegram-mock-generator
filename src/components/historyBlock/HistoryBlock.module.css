@@ -1,0 +1,35 @@
+.historyBlock_borderCircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #00cd5f;
+  background: linear-gradient(180deg, rgba(0, 205, 95, 1) 0%, rgba(0, 169, 255, 1) 100%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.historyBlock_whiteCircle {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.historyBlock_photoCircle {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}

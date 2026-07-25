@@ -1,0 +1,75 @@
+.upbar_container {
+  width: 100%;
+  height: 43px;
+  padding: 0 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  font-family: inherit;
+}
+
+.upbar_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+
+.upbar__title {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.edit_button {
+  min-width: 65px;
+  min-height: 45px;
+}
+
+.upbar__edit_text {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.addHistory_icon,
+.edit_icon {
+  width: 22px;
+  height: 22px;
+  filter: brightness(0);
+}
+
+.upbar_icons {
+  display: flex;
+  gap: 20px;
+  padding: 6px 5px;
+  min-width: 90px;
+  min-height: 45px;
+}
+
+.upbar_historyBlock {
+  display: flex;
+  position: relative;
+}
+
+.historyItem {
+  margin-right: -15px;
+}
+
+.historyItem:first-child {
+  z-index: 3;
+}
+
+.historyItem:nth-child(2) {
+  z-index: 2;
+}
+
+.historyItem:nth-child(3) {
+  z-index: 1;
+}
+
+.upbar_center_line {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

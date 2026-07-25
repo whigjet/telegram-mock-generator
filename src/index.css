@@ -1,0 +1,47 @@
+@import url('/fonts/fonts.css');
+
+:root {
+  --blue-color-text: #037ee5;
+  --main-bg-color: #ffffff;
+  --gray-color-text: #545458;
+  --light-gray-text: #8e8e93;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'SF UI Text',
+    'SF UI Display', 'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Prefer iOS/macOS system typographic defaults when supported */
+@supports (font: -apple-system-body) {
+  html {
+    font: -apple-system-body;
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: var(--main-bg-color);
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'SF UI Text',
+    'SF UI Display', 'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
