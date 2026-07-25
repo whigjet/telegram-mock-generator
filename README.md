@@ -69,9 +69,9 @@ The project can be used for:
 <h2>🖼 Screenshots</h2>
 
 <p align="center">
-  <img src="./screenshots/main-screen.jpg" width="280"/>
-  <img src="./screenshots/chat-editor.jpg" width="280"/>
-  <img src="./screenshots/settings.jpg" width="280"/>
+  <img src="./screenshots/main-screen.png" width="280"/>
+  <img src="./screenshots/chat-editor.png" width="280"/>
+  <img src="./screenshots/settings.png" width="280"/>
 </p>
 
 <p align="center">
